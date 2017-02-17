@@ -4,7 +4,6 @@ California State University, Los Angeles <br>
 
 
 ### Project file structure is as follows:
-======================================
 
 .
 
@@ -37,17 +36,14 @@ ENJOY!
 	
 
 ### Compile requirement
-======================================
 JDK Version 7.0 or above
 
 
 ### Compile Instruction on Command Line:
-======================================
 javac *.java
 
 
 ### Execution Instruction on Command Line:
-======================================
 java CS4551_Main [imagePath]
 e.g.
 java CS4551_Main imgs/Ducky.ppm 
