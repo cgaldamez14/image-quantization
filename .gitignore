@@ -1,0 +1,20 @@
+# Ignore everything
+*
+
+# But do not ignore
+
+!.gitignore
+
+!imgs
+!imgs/*.ppm
+!imgs/results
+!imgs/results/*.ppm
+
+!src
+!src/
+!src/image_quantization
+!src/image_quantization/*.java
+
+!*.txt
+!*.md
+
