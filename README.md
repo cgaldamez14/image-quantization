@@ -1,44 +1,52 @@
-CS4551 Multimedia Software Systems
-@Author: Carlos Galdamez
-California State University, Los Angeles
+## IMAGE QUANTIZATION <br>
+@Author: Carlos Galdamez <br>
+California State University, Los Angeles <br>
 
 
-Project file structure is as follows:
+### Project file structure is as follows:
 ======================================
 
 .
+
 ├── src
-     ├── image_quantization		# Source files
-├── imgs                    		# All images used for testing
-     ├── results			# All resulting images after processing will be store here
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── image_quantization
+&emsp;&emsp;&emsp;&emsp;<strong>Source files</strong>
+
+
+├── imgs
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<strong>All images used for testing</strong>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── results&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<strong>All resulting images after processing will be store here </strong>
+
+
 ├── .gitignore
+
+
 └── README.md
 
 
-NOTE: All resulting images will be automatically saved to the results directory.
-      If you will be using images from the imgs directory make sure to put the correct 
-      image path.
+<strong>NOTE:</strong> 
+> 	All resulting images will be automatically saved to the results directory. If you will be using images from the imgs directory make sure to put the correct image path.
       
-DESCRIPTION:   When program is run you will be prompted to choose an option for image processing. It will be
-	either 1, 2, or 3. If 4 is chosen the program will exit. If anything else is chosen an error message will be displayed
-	and the menu will be shown again. If option 2 is chosen there will be an additional prompt to enter the N-level for 
-	conversion.
-	       After each conversion the main menu will be displayed again.
-	
-	ENJOY!
+<strong>DESCRIPTION:</strong>
+>	When program is run you will be prompted to choose an option for image processing. It will beeither 1, 2, or 3. If 4 is chosen the program will exit. If anything else is chosen an error message will be displayed and the menu will be shown again. If option 2 is chosen there will be an additional prompt to enter the N-level for conversion.
+	After each conversion the main menu will be displayed again.
+ENJOY!
 	
 
-Compile requirement
+### Compile requirement
 ======================================
 JDK Version 7.0 or above
 
 
-Compile Instruction on Command Line:
+### Compile Instruction on Command Line:
 ======================================
 javac *.java
 
 
-Execution Instruction on Command Line:
+### Execution Instruction on Command Line:
 ======================================
 java CS4551_Main [imagePath]
 e.g.
